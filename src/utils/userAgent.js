@@ -1,0 +1,1 @@
+window.navigator.userAgent = 'react-native' // needed for socket.io to work with react native

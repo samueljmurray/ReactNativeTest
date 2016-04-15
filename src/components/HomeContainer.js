@@ -44,6 +44,10 @@ class HomeContainer extends Component {
           onPress={ () => this._navigate(Router.getToiletFreeRoute()) }
           buttonText="Toilet Free"
         />
+        <HomeButton 
+          onPress={ () => this._navigate(Router.getWorldChatRoute()) }
+          buttonText="World Chat"
+        />
       </View>
     )
   }

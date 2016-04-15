@@ -28,6 +28,9 @@ const globalStyles = StyleSheet.create({
     paddingBottom: 8,
     borderStyle: 'solid',
     borderColor: '#4a4a4a',
+  },
+  errorText: {
+    color: 'red'
   }
 })
 
